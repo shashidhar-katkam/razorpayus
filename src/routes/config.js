@@ -1,6 +1,6 @@
 
-const getRazorPayKeys = (stage, Type) => {
-    if (stage === 'prod') {
+const getRazorPayKeys = (stage) => {
+    if (stage === 'live') {
         return {
             keyId: "rzp_live_RQZD1Ix1uu8Sa4",
             keySecret: "BF1RCa846dtXvCb5e06B2zNU"

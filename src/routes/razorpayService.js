@@ -6,7 +6,7 @@ const {
 
 let {
     keyId, keySecret
-} = getRazorPayKeys(process.env.STAGE)
+} = getRazorPayKeys('test')
 
 
 const checkIsAmountPaidOrNot = async (id) => {
